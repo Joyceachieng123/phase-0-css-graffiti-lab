@@ -1,1 +1,45 @@
-/* write your override styles here */
+#wall .tag-1 {
+    display: none;
+      
+  }
+  .tag-1 {
+    background: url(../images/tag-1.png) no-repeat;
+    z-index: 7;
+    display: block;
+  
+  }
+  
+  #tag-3.slick.wicked {
+      background: url(../images/new-tag-3.png) no-repeat; 
+      display: block;
+      width: 160px; 
+      height: 160px; 
+      margin: 12px; 
+      border: 1px solid #ff0000;
+      padding: 12px;
+      text-align: center;
+      color: #00ff00; 
+  }
+  
+  #tag-2 {
+      background: url(../images/new-tag-2.png) no-repeat; 
+      z-index: 16; 
+      width: 180px; 
+      height: 180px; 
+      margin: 15px; 
+      border: 2px solid #00ff00; 
+      padding: 15px;
+      text-align: center;
+      color: #0000ff; 
+  }
+  .parent #tag-4 {
+      background: url(../images/new-tag-4.png) no-repeat; 
+      display: block;
+      width: 200px; 
+      height: 200px; 
+      margin: 18px; /* Change the margin */
+      border: 2px solid #0000ff; 
+      padding: 18px; 
+      text-align: center; 
+      color: #ff00ff; 
+  }
